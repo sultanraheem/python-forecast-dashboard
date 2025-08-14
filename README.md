@@ -43,7 +43,7 @@ Note: Use the sidebar sliders to adjust daily growth rates for Instagram, Linked
 
 ## Findings
 
-# Gain / Loss
+### Gain / Loss
 
 TikTok had the highest daily growth rate among the platforms, set at 0.3%. That’s more than double Instagram’s rate and triple LinkedIn’s.
 
