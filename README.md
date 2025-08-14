@@ -51,16 +51,16 @@ Instagram experienced follower losses on multiple days, including a sharp drop o
 
 LinkedIn showed consistent growth, peaking with a 69-follower gain on August 11, 2025, and maintaining a steady upward trajectory.
 
-# Forecasting Scenarios
+### Forecasting Scenarios
 
 The dashboard models three scenarios—best, middle, and worst—for each platform over 180 days.
 
 Even in the worst-case scenario, TikTok is projected to grow, thanks to its strong initial momentum and higher growth rate.
 
-The best-case forecast suggests Instagram could reach over 2,400 followers, LinkedIn over 16,800, and TikTok over 1,000 by early 2026.
+The best-case forecast suggests that Instagram could reach over 2,400 followers, LinkedIn could reach over 16,800, and TikTok could reach over 1,000 by early 2026.
 
-# Visualization Highlights
+### Visualization Highlights
 
-The dashboard includes a shaded line chart showing the range between worst and best forecasts, offering a visual sense of uncertainty.
+The dashboard features a shaded line chart illustrating the range between the worst and best forecasts, providing a visual representation of uncertainty.
 
 A bar chart compares final follower counts across scenarios, making it easy to see which platform has the most optimistic outlook.
