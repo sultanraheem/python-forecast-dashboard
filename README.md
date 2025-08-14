@@ -53,7 +53,7 @@ LinkedIn showed consistent growth, peaking with a 69-follower gain on August 11,
 
 ### Forecasting Scenarios
 
-The dashboard models three scenarios—best, middle, and worst, for each platform over 180 days.
+The dashboard models three scenarios, best, middle, and worst, for each platform over 180 days.
 
 Even in the worst-case scenario, TikTok is projected to grow, thanks to its strong initial momentum and higher growth rate.
 
