@@ -13,7 +13,7 @@ This repository contains a **Python-based dashboard** for visualizing and foreca
   - Numeric summary table  
   - Daily growth rate comparison  
 - **Customizable Growth Rates**: Adjust daily growth rates for each platform via sliders.  
-- **Aesthetic Color Palette**: Dashboard uses a visually pleasing purple/pink theme.
+- **Aesthetic Colour Palette**: Dashboard uses a visually pleasing purple/pink theme.
 
 ---
 
@@ -39,3 +39,27 @@ PT Test/
 ├── PeakTew_Data_August_1_to_12_2025.csv   # Sample social media data
 ├── dashboard_snapshot.png                  # Exported image of dashboard
 ├── README.md
+
+## Findings
+
+# Gain / Loss
+
+TikTok had the highest daily growth rate among the platforms, set at 0.3%. That’s more than double Instagram’s rate and triple LinkedIn’s.
+
+Instagram experienced follower losses on multiple days, including a sharp drop of 28 followers on August 13, 2025—its worst day in the dataset.
+
+LinkedIn showed consistent growth, peaking with a 69-follower gain on August 11, 2025, and maintaining a steady upward trajectory.
+
+# Forecasting Scenarios
+
+The dashboard models three scenarios—best, middle, and worst—for each platform over 180 days.
+
+Even in the worst-case scenario, TikTok is projected to grow, thanks to its strong initial momentum and higher growth rate.
+
+The best-case forecast suggests Instagram could reach over 2,400 followers, LinkedIn over 16,800, and TikTok over 1,000 by early 2026.
+
+# Visualization Highlights
+
+The dashboard includes a shaded line chart showing the range between worst and best forecasts, offering a visual sense of uncertainty.
+
+A bar chart compares final follower counts across scenarios, making it easy to see which platform has the most optimistic outlook.
