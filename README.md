@@ -24,19 +24,18 @@ This repository contains a **Python-based dashboard** for visualizing and foreca
 ```bash
 git clone https://github.com/sultanraheem/peaktew-forecast-dashboard.git
 cd peaktew-forecast-dashboard
+```
 
-2. Install dependencies
-
-pip install -r requirements.txt
-
-3. Usage
+## Usage
 
 streamlit run PeakTew_Forecast_Dashboard.ipynb
 
-FOLDER STRUCTURE
+Note: Use the sidebar sliders to adjust daily growth rates for Instagram, LinkedIn, and TikTok. Visualizations update automatically based on the selected growth rates.
+
+## Folder Structure
 
 PT Test/
-├── PeakTew_Forecast_Dashboard.ipynb  # Jupyter notebook with dashboard code
-├── PeakTew_Data_August_1_to_12_2025.csv  # Sample social media data
-├── dashboard_snapshot.png  # Exported image of dashboard
+├── PeakTew_Forecast_Dashboard.ipynb       # Jupyter notebook with dashboard code
+├── PeakTew_Data_August_1_to_12_2025.csv   # Sample social media data
+├── dashboard_snapshot.png                  # Exported image of dashboard
 ├── README.md
