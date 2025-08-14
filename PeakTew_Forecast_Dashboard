@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 19,
    "id": "17dd368f-f2d2-449f-82d9-9bd7dd49e249",
    "metadata": {},
    "outputs": [
@@ -25,7 +25,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 20,
    "id": "3f6226b5-232a-42a4-bdbb-ba6930fae33f",
    "metadata": {},
    "outputs": [
@@ -169,7 +169,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 21,
    "id": "bb22edd3-3d62-41a1-96ca-eba77cff250a",
    "metadata": {},
    "outputs": [
@@ -322,6 +322,71 @@
     "\n",
     "plt.tight_layout()\n",
     "plt.show()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "cac8eb13-f26d-42e8-af5e-f453818834fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Collecting kaleido\n",
+      "  Downloading kaleido-1.0.0-py3-none-any.whl.metadata (5.6 kB)\n",
+      "Collecting choreographer>=1.0.5 (from kaleido)\n",
+      "  Downloading choreographer-1.0.9-py3-none-any.whl.metadata (5.6 kB)\n",
+      "Collecting logistro>=1.0.8 (from kaleido)\n",
+      "  Downloading logistro-1.1.0-py3-none-any.whl.metadata (2.6 kB)\n",
+      "Collecting orjson>=3.10.15 (from kaleido)\n",
+      "  Downloading orjson-3.11.2-cp311-cp311-win_amd64.whl.metadata (1.2 kB)\n",
+      "Requirement already satisfied: packaging in c:\\users\\higas\\anaconda3\\lib\\site-packages (from kaleido) (23.1)\n",
+      "Collecting simplejson>=3.19.3 (from choreographer>=1.0.5->kaleido)\n",
+      "  Downloading simplejson-3.20.1-cp311-cp311-win_amd64.whl.metadata (3.4 kB)\n",
+      "Downloading kaleido-1.0.0-py3-none-any.whl (51 kB)\n",
+      "   ---------------------------------------- 0.0/51.5 kB ? eta -:--:--\n",
+      "   ----------------------- ---------------- 30.7/51.5 kB 1.4 MB/s eta 0:00:01\n",
+      "   ---------------------------------------- 51.5/51.5 kB 877.4 kB/s eta 0:00:00\n",
+      "Downloading choreographer-1.0.9-py3-none-any.whl (51 kB)\n",
+      "   ---------------------------------------- 0.0/51.3 kB ? eta -:--:--\n",
+      "   ---------------------------------------  51.2/51.3 kB 2.6 MB/s eta 0:00:01\n",
+      "   ---------------------------------------- 51.3/51.3 kB 651.1 kB/s eta 0:00:00\n",
+      "Downloading logistro-1.1.0-py3-none-any.whl (7.9 kB)\n",
+      "Downloading orjson-3.11.2-cp311-cp311-win_amd64.whl (119 kB)\n",
+      "   ---------------------------------------- 0.0/119.6 kB ? eta -:--:--\n",
+      "   ---------------------------------------- 119.6/119.6 kB 6.8 MB/s eta 0:00:00\n",
+      "Downloading simplejson-3.20.1-cp311-cp311-win_amd64.whl (75 kB)\n",
+      "   ---------------------------------------- 0.0/75.6 kB ? eta -:--:--\n",
+      "   ---------------------------------------- 75.6/75.6 kB 4.1 MB/s eta 0:00:00\n",
+      "Installing collected packages: simplejson, orjson, logistro, choreographer, kaleido\n",
+      "Successfully installed choreographer-1.0.9 kaleido-1.0.0 logistro-1.1.0 orjson-3.11.2 simplejson-3.20.1\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'px' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[22], line 4\u001b[0m\n\u001b[0;32m      1\u001b[0m get_ipython()\u001b[38;5;241m.\u001b[39msystem(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mpip install -U kaleido\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[0;32m      3\u001b[0m \u001b[38;5;66;03m# Your existing dashboard code\u001b[39;00m\n\u001b[1;32m----> 4\u001b[0m fig \u001b[38;5;241m=\u001b[39m px\u001b[38;5;241m.\u001b[39mline(\u001b[38;5;241m.\u001b[39m\u001b[38;5;241m.\u001b[39m\u001b[38;5;241m.\u001b[39m)  \u001b[38;5;66;03m# or whatever chart you made\u001b[39;00m\n\u001b[0;32m      6\u001b[0m fig\u001b[38;5;241m.\u001b[39mshow()\n\u001b[0;32m      8\u001b[0m \u001b[38;5;66;03m# Save the dashboard snapshot\u001b[39;00m\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'px' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install -U kaleido\n",
+    "\n",
+    "# Your existing dashboard code\n",
+    "fig = px.line(...)  # or whatever chart you made\n",
+    "\n",
+    "fig.show()\n",
+    "\n",
+    "# Save the dashboard snapshot\n",
+    "import plotly.io as pio\n",
+    "pio.write_image(fig, \"C:/Users/higas/Downloads/PT Test/dashboard_snapshot.png\", width=1200, height=800)"
    ]
   }
  ],
