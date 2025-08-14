@@ -47,13 +47,13 @@ Note: Use the sidebar sliders to adjust daily growth rates for Instagram, Linked
 
 TikTok had the highest daily growth rate among the platforms, set at 0.3%. That’s more than double Instagram’s rate and triple LinkedIn’s.
 
-Instagram experienced follower losses on multiple days, including a sharp drop of 28 followers on August 13, 2025—its worst day in the dataset.
+Instagram experienced follower losses on multiple days, including a sharp drop of 28 followers on August 13, 2025, its worst day in the dataset.
 
 LinkedIn showed consistent growth, peaking with a 69-follower gain on August 11, 2025, and maintaining a steady upward trajectory.
 
 ### Forecasting Scenarios
 
-The dashboard models three scenarios—best, middle, and worst—for each platform over 180 days.
+The dashboard models three scenarios—best, middle, and worst, for each platform over 180 days.
 
 Even in the worst-case scenario, TikTok is projected to grow, thanks to its strong initial momentum and higher growth rate.
 
