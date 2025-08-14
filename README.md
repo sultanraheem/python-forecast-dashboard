@@ -36,11 +36,10 @@ Note: Use the sidebar sliders to adjust daily growth rates for Instagram, Linked
 
 ## Folder Structure
 
-PT Test/
-├── PeakTew_Forecast_Dashboard.ipynb       # Jupyter notebook with dashboard code
-├── PeakTew_Data_August_1_to_12_2025.csv   # Sample social media data
-├── dashboard_snapshot.png                  # Exported image of dashboard
-├── README.md
+- `PeakTew_Forecast_Dashboard.ipynb`: Jupyter notebook with dashboard code  
+- `PeakTew_Data_August_1_to_12_2025.csv`: Sample social media data  
+- `dashboard_snapshot.png`: Exported image of dashboard  
+- `README.md`: Project README
 
 ## Findings
 
