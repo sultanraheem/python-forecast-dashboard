@@ -1,4 +1,4 @@
-# PeakTew Social Media Forecast Dashboard
+# Python Social Media Forecast Dashboard
 
 This repository contains a **Python-based dashboard** for visualizing and forecasting social media follower growth for PeakTew across Instagram, LinkedIn, and TikTok.
 
